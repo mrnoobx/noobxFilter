@@ -24,7 +24,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "7847084978:AAFvJptKgLpeBVwf-hQT5nTPNQli8Hr
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
-PICS = (environ.get('PICS', 'https://graph.org/file/8212099d37764614d6357-e2e7eed0bf88e2b1e2.jpg https://graph.org/file/ceba7e4c839a3a20c0ed6-0c3070a760489cb680.jpg https://graph.org/file/37fd9dc9bb27f80218e03-49ddfde77568b9f240.jpg https://graph.org/file/e54ea154e99119547d626-4df2f3a10e68c568ff.jpg https://graph.org/file/7ab63fb8655b025569456-b19ae7d5ac96e5cae8.jpg https://graph.org/file/71ab68c29f2c4d56fd47d-2fde0d561fd4d937f6.jpg https://graph.org/file/d14bc0e8f59e605e3b83b-6eeea214c53aa7fef3.jpg https://graph.org/file/19d93c9570e290d37e87b-8855511cd36bcbc39e.jpg https://graph.org/file/4280d7025d689389c574d-3cc8a1db7bc8d39f5c.jpg')).split() #SAMPLE PIC
+PICS = (environ.get('PICS', 'https://graph.org/file/ceba7e4c839a3a20c0ed6-0c3070a760489cb680.jpg https://graph.org/file/e54ea154e99119547d626-4df2f3a10e68c568ff.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/b69af2db776e4e85d21ec.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/noob_je")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
@@ -106,9 +106,9 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/noob_je')
 
 # Shortlink Info
-SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'runurl.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'bbfb03c98707ab6dc947c9c8e3cfffb747cfd5f6')
+SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False))
+SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
+SHORTLINK_API = environ.get('SHORTLINK_API', '')
 
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "5")
