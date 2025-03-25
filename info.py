@@ -20,7 +20,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'TechVJBot')
 API_ID = int(environ.get('API_ID', '29382018'))
 API_HASH = environ.get('API_HASH', '4734a726c04620c61ec0a28a1ae0d57f')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7565594863:AAF2uTPZOdMA4__i8fvZbksCjgdp4XQ0_xU")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7565594863:AAFwVzESp-NXKriYSmX1wmHqV8WDhL6OmkI")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
@@ -133,7 +133,7 @@ YEARS = ["1900", "1991", "1992", "1993", "1994", "1995", "1996", "1997", "1998",
 
 
 # Online Stream and Download
-STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or False
+STREAM_MODE = bool(environ.get('STREAM_MODE', False)) # Set True or False
 
 # If Stream Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 MULTI_CLIENT = False
