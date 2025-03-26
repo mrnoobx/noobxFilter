@@ -1,4 +1,4 @@
-name: aptible X
+name: aptible Y
 
 on:
   push:
@@ -16,7 +16,7 @@ jobs:
       uses: aptible/aptible-deploy-action@v4
       with:
         type: git
-        app: ss
+        app: noob
         environment: noobuu
         username: ${{ secrets.APTIBLE_USERNAME }}
         password: ${{ secrets.APTIBLE_PASSWORD }}
